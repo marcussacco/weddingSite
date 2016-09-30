@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://d33wubrfki0l68.cloudfront.net/css/5570b34d9a40c6a71e32f8dc000c63b79218ce87/countstyles.css'/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes"/>
+    <meta name="description" content="THE FINAL COUNTDOWN">
+    <meta name="author" content="Marcus Sacco">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#locModal">LOCATION</a>
+        </li>
+        <li>
+          <a href="#regModal">REGISTRY</a>
+        </li>
+        <li>
+          <a href="#lodModal">LODGING</a>
+        </li>
+        <li>
+          <a href="#resModal">RSVP</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="nameContain">
+      <p>Avery</p>
+      <p>&</p>
+      <p>Angelica</p>
+      <h4>Join Us</h4>
+      <h4>August 1st, 2015</h4>
+    </div>
+
+    <div id="modalContainer">
+
+      <div id="locModal" class="modal">
+        <a href="#close" title="Close" class="close">X</a>
+        <p>LOCATION</p>
+        <div class="iframe-rwd">
+          <iframe width="600" height="250" frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?q=Becket's%2C%20Jackson%20Street%2C%20Oshkosh%2C%20WI%2C%20United%20States&key=AIzaSyC1G8xDjttS7GfPxyvLDytaB91RJQrfbLA"></iframe>
+        </div>
+        <h4>Becket's Banquet Hall</h4>
+        <h4>2 Jackson St, Oshkosh, WI 54901</h4>
+        <p>Coming from the Madison area?</p>
+        <p>Take 151 to Fond du Lac, 41 to Oshkosh.</p>
+        <p>26 is closed for construction.</p>
+      </div>
+
+      <div id="regModal" class="modal">
+        <a href="#close" title="Close" class="close">X</a>
+        <p>REGISTRY</p>
+        <p>We are registered with</p>
+        <img src="http://d33wubrfki0l68.cloudfront.net/9a5ba29dad59c8ab0ffffc3b7a42406abe31ae23/kohlslogo.png">
+        <p>Click <a href="" target="_blank">HERE</a> to see our registry</p>
+      </div>
+
+      <div id="lodModal" class="modal">
+        <a href="#close" title="Close" class="close">X</a>
+        <p>LODGING</p>
+        <p>We recommend a stay at</p>
+        <h4>Best Western Premier</h4>
+          <div class="iframe-rwd">
+            <iframe width="600" height="250" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=Best%20Western%20Premier%20Waterfront%20Hotel%20%26%20Convention%20Center%2C%20North%20Main%20Street%2C%20Oshkosh%2C%20WI%2C%20United%20States&key=AIzaSyC1G8xDjttS7GfPxyvLDytaB91RJQrfbLA"></iframe>
+          </div>
+        <div id="altBox">
+          <p>Or choose from</p>
+          <a href="https://www.google.com/maps/search/hotels/@44.0180749,-88.5652811,12z/data=!3m1!4b1" target="_blank">these locations</a>
+        </div>
+      </div>
+
+      <div id="resModal" class="modal">
+        <a href="#close" title="Close" class="close">X</a>
+          <p>RSVP</p>
+          <form name='signup' method='post'><input type='hidden' name='form-name' value='signup' />
+            <input type="text" name="name" placeholder="Your Name">
+            <textarea name="message" rows="10" cols="50" placeholder="Send a Message"></textarea>
+            <input type="email" name="email" placeholder ="Email">
+            <input type="submit" class="btn">
+          </form>
+      </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src='http://d33wubrfki0l68.cloudfront.net/bundles/80af4ce55936d70e519d5ddc74ed51f80efbc220.js'></script>
+  </body>
+</html>
